@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #00385e;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.new-btn {
+    font-weight: bold;
+    border: 1px solid #00385e;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}

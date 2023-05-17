@@ -1,0 +1,41 @@
+.new-post h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.new-post button {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: #00385e;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.form-control label {
+    margin-bottom: .1rem;
+}
+
+.form-control input {
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(237, 237, 237);
+}
+
+.form-control h3 {
+    padding: .2rem 0;
+}
